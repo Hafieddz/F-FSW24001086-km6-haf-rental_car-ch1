@@ -21,7 +21,6 @@ sans-serif;
     border: none;
 }
 
-
 body {
     background-color: #fff;
     font-family: $font-helvetica;
@@ -79,6 +78,13 @@ body {
     transform: translateX(-50%);
 }
 
+.service-section__list {
+    background : url('../img/icon/icon_checklist.svg') no-repeat;
+    list-style: none;
+}
+
+
+
 .why-section__icon {
     width: 32px;
     height: 32px;
@@ -98,17 +104,17 @@ body {
         width: 250px;
         height: 250px;
     }
-    
+
     .image-mask::before {
         width: 250px;
         height: 250px;
     }
-    
+
     .image-mask__circle {
         width: 250px;
         height: 250px;
     }
-    
+
     .image-mask__image {
         width: 250px;
         height: 400px;

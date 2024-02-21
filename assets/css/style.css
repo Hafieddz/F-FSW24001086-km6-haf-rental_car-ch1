@@ -11916,6 +11916,11 @@ body {
   transform: translateX(-50%);
 }
 
+.service-section__list {
+  background: url("../img/icon/icon_checklist.svg") no-repeat;
+  list-style: none;
+}
+
 .why-section__icon {
   width: 32px;
   height: 32px;
