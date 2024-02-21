@@ -1,6 +1,8 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
-$font-helvetica : Arial, Helvetica, sans-serif ;
+$font-helvetica : Arial,
+Helvetica,
+sans-serif;
 
 * {
     padding: 0;
@@ -89,4 +91,28 @@ body {
 .footer__icon {
     width: 32px;
     height: 32px;
+}
+
+@media screen and (max-width : 550px) {
+    .image-mask {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .image-mask::before {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .image-mask__circle {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .image-mask__image {
+        width: 250px;
+        height: 400px;
+    }
+
+
 }

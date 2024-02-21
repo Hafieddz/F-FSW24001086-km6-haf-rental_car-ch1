@@ -11930,4 +11930,23 @@ body {
   height: 32px;
 }
 
+@media screen and (max-width: 550px) {
+  .image-mask {
+    width: 250px;
+    height: 250px;
+  }
+  .image-mask::before {
+    width: 250px;
+    height: 250px;
+  }
+  .image-mask__circle {
+    width: 250px;
+    height: 250px;
+  }
+  .image-mask__image {
+    width: 250px;
+    height: 400px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
