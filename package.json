@@ -1,0 +1,22 @@
+{
+  "name": "challenge_chapter_1",
+  "version": "1.0.0",
+  "description": "Binar Academy Challenge Chapter 1 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hafieddz/000-km6-haf-rental_car-ch1.git"
+  },
+  "author": "Hafiedz Hasmy Hamid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hafieddz/000-km6-haf-rental_car-ch1/issues"
+  },
+  "homepage": "https://github.com/Hafieddz/000-km6-haf-rental_car-ch1#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
