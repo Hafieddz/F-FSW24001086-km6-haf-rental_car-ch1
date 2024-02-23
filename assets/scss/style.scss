@@ -118,6 +118,16 @@ body {
     overflow: hidden;
 }
 
+.bg-blue {
+    background-color: #0D28A6;
+}
+
+.cta-text {
+    width: 50%;
+    font-size: 14px;
+    line-height: 20px;
+}
+
 @media screen and (max-width : 790px) {
     .testimonial-carousel__body {
         height: 400px;
@@ -150,6 +160,10 @@ body {
     .image-mask__image {
         width: 250px;
         height: 400px;
+    }
+
+    .cta-text {
+        width: 100%;
     }
 
 
