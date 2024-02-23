@@ -53,7 +53,7 @@ body {
     background: transparent;
     border-radius: 50%;
     z-index: 1;
-    box-shadow: 0 100px 0 40px #fff;
+    box-shadow: 0 100px 0 20px #fff;
 
 
 }
@@ -79,7 +79,7 @@ body {
 }
 
 .service-section__list {
-    background : url('../img/icon/icon_checklist.svg') no-repeat;
+    background: url('../img/icon/icon_checklist.svg') no-repeat;
     list-style: none;
 }
 
@@ -97,6 +97,38 @@ body {
 .footer__icon {
     width: 32px;
     height: 32px;
+}
+
+.testimonial-carousel__body {
+    height: 300px;
+    width: 100%;
+    background-color: #F1F3FF;
+}
+
+.testimonial-carousel__circle {
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.testimonial-carousel__text {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+@media screen and (max-width : 790px) {
+    .testimonial-carousel__body {
+        height: 400px;
+    }
+
+    .testimonial-carousel__text {
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
 }
 
 @media screen and (max-width : 550px) {
