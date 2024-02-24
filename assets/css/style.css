@@ -11863,7 +11863,7 @@ textarea.form-control-lg {
 
 body {
   background-color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica;
 }
 
 .hero-section,
@@ -11963,6 +11963,15 @@ body {
   line-height: 20px;
 }
 
+.offcanvas-toogle {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .offcanvas-toogle {
+    display: block;
+  }
+}
 @media screen and (max-width: 790px) {
   .testimonial-carousel__body {
     height: 400px;

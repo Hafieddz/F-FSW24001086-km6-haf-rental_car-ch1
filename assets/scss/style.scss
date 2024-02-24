@@ -1,8 +1,7 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
-$font-helvetica : Arial,
-Helvetica,
-sans-serif;
+$font-helvetica : Helvetica;
+
 
 * {
     padding: 0;
@@ -126,6 +125,16 @@ body {
     width: 50%;
     font-size: 14px;
     line-height: 20px;
+}
+
+.offcanvas-toogle {
+    display: none ;
+}
+
+@media screen and (max-width : 991px) {
+    .offcanvas-toogle {
+        display: block;
+    }
 }
 
 @media screen and (max-width : 790px) {
