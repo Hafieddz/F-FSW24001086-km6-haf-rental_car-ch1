@@ -11939,6 +11939,7 @@ body {
   height: 300px;
   width: 100%;
   background-color: #F1F3FF;
+  border-radius: 10px;
 }
 
 .testimonial-carousel__circle {
@@ -11980,6 +11981,10 @@ body {
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     overflow: hidden;
+  }
+  .carousel-control-prev, .carousel-control-next {
+    margin-top: 60px;
+    align-items: start;
   }
 }
 @media screen and (max-width: 550px) {
